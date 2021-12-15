@@ -29,8 +29,8 @@
             </DataGrid.ColumnHeaderStyle>
             <DataGrid.Columns>
                 <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="Id" Binding="{Binding ID}" IsReadOnly="True"/>
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="45*" Header="FamilyMember_Id" Binding="{Binding FAMILY_MEMBER_ID}" />
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="45*" Header="Description" Binding="{Binding DESCRIPTION}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="45*" Header="Член семьи" Binding="{Binding FAMILY_MEMBER_ID}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="45*" Header="Описание" Binding="{Binding DESCRIPTION}" />
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

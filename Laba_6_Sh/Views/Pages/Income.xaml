@@ -29,12 +29,12 @@
             </DataGrid.ColumnHeaderStyle>
             <DataGrid.Columns>
                 <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="Id" Binding="{Binding ID}" IsReadOnly="True"/>
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Money" Binding="{Binding AMOUNT_OF_MONEY}" />
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Month" Binding="{Binding MONTH}" />
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Year" Binding="{Binding YEAR}" />
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Source" Binding="{Binding SOURCE_ID}" />
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="25*" Header="FamilyMember" Binding="{Binding FAMILY_MEMBER_ID}" />
-                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="25*" Header="PlanMember" Binding="{Binding PLAN_MEMBER_ID}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Сумма" Binding="{Binding AMOUNT_OF_MONEY}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Месяц" Binding="{Binding MONTH}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Год" Binding="{Binding YEAR}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Источник" Binding="{Binding SOURCE_ID}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="25*" Header="Член Семьи" Binding="{Binding FAMILY_MEMBER_ID}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="25*" Header="План" Binding="{Binding PLAN_MEMBER_ID}" />
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
