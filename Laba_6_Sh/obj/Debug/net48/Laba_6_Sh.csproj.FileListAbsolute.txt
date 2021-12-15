@@ -1,0 +1,11 @@
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Laba_6_Sh.csproj.AssemblyReference.cache
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Laba_6_Sh.csproj.SuggestedBindingRedirects.cache
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Views\Pages\Expenditure.g.cs
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Views\Pages\FamilyMember.g.cs
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Views\Pages\Income.g.cs
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Views\Pages\Plan.g.cs
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Views\Pages\Source.g.cs
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Views\Windows\MainWindow.g.cs
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\App.g.cs
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Laba_6_Sh_MarkupCompile.cache
+D:\source\repos\Laba_6_Sh\Laba_6_Sh\obj\Debug\net48\Laba_6_Sh_MarkupCompile.lref
