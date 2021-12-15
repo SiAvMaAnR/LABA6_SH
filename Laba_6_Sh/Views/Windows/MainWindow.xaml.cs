@@ -83,10 +83,10 @@ namespace Laba_6_Sh
                     mainViewModel.FrameCurrentPage = familyMemberPage;
                     break;
                 case "Доходы":
-                    mainViewModel.FrameCurrentPage = planPage;
+                    mainViewModel.FrameCurrentPage = incomePage;
                     break;
                 case "Планы":
-                    mainViewModel.FrameCurrentPage = incomePage;
+                    mainViewModel.FrameCurrentPage = planPage;
                     break;
                 case "Расходы":
                     mainViewModel.FrameCurrentPage = expenditurePage;
