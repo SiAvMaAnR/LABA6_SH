@@ -1,0 +1,42 @@
+﻿<Page x:Class="Laba_6_Sh.Views.Pages.Expenditure"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Laba_6_Sh.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Expenditure">
+
+    <Page.Resources>
+        <Style TargetType="DataGridCell" x:Key="Cell">
+            <Style.Setters>
+                <Setter Property="TextBlock.TextAlignment" Value="Center" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontFamily" Value="Arial" />
+            </Style.Setters>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <DataGrid ItemsSource="{Binding ExpenditureDataTable.DefaultView}" AutoGenerateColumns="False">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="Padding" Value="5 0"></Setter>
+                    <Setter Property="FontSize" Value="20"></Setter>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="Id" Binding="{Binding ID}" IsReadOnly="True"/>
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="День" Binding="{Binding DAY}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="Месяц" Binding="{Binding MONTH}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="Год" Binding="{Binding YEAR}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Категория" Binding="{Binding CATEGORY}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="15*" Header="Сумма" Binding="{Binding MONEY}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="20*" Header="Член Семьи" Binding="{Binding FAMILY_MEMBER_ID}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="План" Binding="{Binding PLAN_MEMBER_ID}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

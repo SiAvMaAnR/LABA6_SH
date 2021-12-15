@@ -1,0 +1,37 @@
+﻿<Page x:Class="Laba_6_Sh.Views.Pages.Source"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Laba_6_Sh.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Source">
+
+    <Page.Resources>
+        <Style TargetType="DataGridCell" x:Key="Cell">
+            <Style.Setters>
+                <Setter Property="TextBlock.TextAlignment" Value="Center" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontFamily" Value="Arial" />
+            </Style.Setters>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <DataGrid ItemsSource="{Binding SourceDataTable.DefaultView}" AutoGenerateColumns="False">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="Padding" Value="5 0"></Setter>
+                    <Setter Property="FontSize" Value="20"></Setter>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="10*" Header="Id" Binding="{Binding ID}" IsReadOnly="True"/>
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="45*" Header="Title" Binding="{Binding TITLE}" />
+                <DataGridTextColumn CellStyle="{StaticResource Cell}" Width="45*" Header="Description" Binding="{Binding DESCRIPTION}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

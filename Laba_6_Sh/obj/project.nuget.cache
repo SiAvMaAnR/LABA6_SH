@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JAxq4wKg/DDIh05pDlcyBW3oHsxb5ZiAZw5MYXMd3rd7nWw0ASgUhWBlwtbGhlPQ6ce2KhhPzg9J65O+fWAdEg==",
+  "success": true,
+  "projectFilePath": "D:\\source\\repos\\Laba_6_Sh\\Laba_6_Sh\\Laba_6_Sh.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dunduk\\.nuget\\packages\\firebirdsql.data.firebirdclient\\8.5.4\\firebirdsql.data.firebirdclient.8.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
