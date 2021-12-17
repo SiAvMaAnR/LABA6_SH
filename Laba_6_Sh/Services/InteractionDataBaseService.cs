@@ -22,7 +22,16 @@ namespace Laba_6_Sh.Services
                 sqlDataAdapter.Fill(dataTable);
             });
 
+            //string answer = "";
+            //foreach (DataRow item in dataTable.Rows)
+            //{
+            //    foreach (object cell in item.ItemArray)
+            //        answer += cell ?? "";
+            //    answer += "\n";
+            //}
+            //MessageBox.Show(answer);
             return dataTable;
+
         }
 
         public async Task UpdateBD(DataTable table)

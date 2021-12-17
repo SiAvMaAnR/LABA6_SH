@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Laba_6_Sh.ViewModels
 {
-    public class SourceViewModel: BaseViewModel
+    public class SourceViewModel: BaseViewModel 
     {
         private DataTable sourceDataTable = new DataTable();
 
